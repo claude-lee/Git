@@ -14,9 +14,16 @@ Claudias-MacBook-Air:TDD claude$ git remote -v
 origin	git@github.com:claude-lee/TDD.git (fetch)
 origin	git@github.com:claude-lee/TDD.git (push)
 ****************************************************
-
+If you accidentally left something out of your last 
+commit, do the following:
+git add . # as usual
+git commit --amend
+If you don't specify a commit message with -m you 
+will be prompted with the previous commit message 
+as a default.
 ****************************************************
-
+When you're done you can check git log --stat to 
+see your amended commit with the extra changes.
 ****************************************************
 
 ****************************************************
