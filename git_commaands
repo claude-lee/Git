@@ -25,9 +25,29 @@ as a default.
 When you're done you can check git log --stat to 
 see your amended commit with the extra changes.
 ****************************************************
-
+git describe
+git reflog
+git svn
+git rebase
+git blame
+git reset
+gitk
+gitx
+git bisect 
+git bisect run
+git checkout -b 'testing' #switched to a new branch 'testing'
+git reset
+git cherry
+*****************************************************
+ls git-*
+git rebase-all-branches
+gitconfig
+cat ~/.gitconfig
+alias: p = pull
+git cherry-pick
+git filter-branch
 ****************************************************
-
+hub pull-request
 ****************************************************
 
 
