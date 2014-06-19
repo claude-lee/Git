@@ -49,5 +49,38 @@ git filter-branch
 ****************************************************
 hub pull-request
 ****************************************************
+$ git branch
+* master
+
+$ git branch feature
+
+$ git branch
+  feature
+* master
+
+$ git  checkout feature
+Switched to branch 'feature'
+
+$ git merge feature
+Updating ...
+
+$ git branch -d feature
+Deleted branch feature 
+
+if you get merge conflicts:
+
+edit conflicting file
+then git add file again and git commit again
+
+
+
+
+
+
+
+
+
+
+
 
 
