@@ -77,7 +77,7 @@ pretty command line colcors:
 
 git config --global color.ui true
 *************************************************
-
+git config --global user.name claude-lee
 
 
 
