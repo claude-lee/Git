@@ -72,8 +72,11 @@ if you get merge conflicts:
 edit conflicting file
 then git add file again and git commit again
 
+*************************************************
+pretty command line colcors:
 
-
+git config --global color.ui true
+*************************************************
 
 
 
