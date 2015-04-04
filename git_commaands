@@ -1,5 +1,17 @@
 
 ****************************************************
+From Get Acquainted with Git at Treehouse:
+- if you mess up a file before it is staged:
+git checkout /path/to/file.py
+
+- if you mess up a file and you add it to staging:
+git reset HEAD <path/to/file> Unstage a file. (HEAD represents the current commit)
+
+git reset HEAD (Unstage all staged files.)
+
+git reset HEAD^ (to get back to the second last commit)
+
+****************************************************
 What to do when you get:
 “fatal: remote origin already exists”
 https://help.github.com/articles/generating-ssh-keys
